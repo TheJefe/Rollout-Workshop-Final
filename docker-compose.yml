@@ -1,0 +1,10 @@
+version: '3'
+services:
+  rollout-js:
+    build: ./frontend-spring-boot-react-crud-full-stack-with-maven/.
+    ports:
+      - "3000:3000"
+  rollout-java:
+    build: ./backend-spring-boot-react-crud-full-stack-with-maven/.
+    ports:
+      - "8080:8080"
